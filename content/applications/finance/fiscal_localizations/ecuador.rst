@@ -586,3 +586,76 @@ includes the tax code within the parenthesis in order to report it to the SRI.
 .. image:: ecuador/104-form.png
    :align: center
    :alt: Report 104 form for Ecuador.
+
+ATS Report
+----------
+
+To install the ATS Report module go to :guilable:’Apps’ and search for the module by its 
+technical name *l10n_ec_reports_ats* and click the :guilabel:’Activate’ button.
+
+.. image:: ecuador/l10n_ec_reports_ats.png
+   :align: center 
+   :alt: l10n_ec ATS Report module
+
+This module enables the features and configurations to:
+
+- Access the ATS Report within the native Tax Report of Odoo
+- Filter the date range, and export the XML file.
+- The generated XML file is ready to upload to *DIMM Formularios*.
+
+.. note::
+	The Ecuadorian ATS Report module is dependent on the previous installation of the 
+:guilabel:’Accounting’ app and the :guidable:’Ecuadorian EDI module’.
+
+Configurations
+~~~~~~~~~~~~~~
+
+First so the configurations of the Ecuadorian :doc:’electronic invoice <configure-your-company>’ 
+flow. This step is needed to be completed in order to correctly issue the electronic documents. 
+In the ATS every document generated in Odoo will be included (invoices, vendor bills, sales and 
+purchases withholdings, credit notes, debit notes).
+
+Vendor Bills
+************
+
+When generating a Vendor Bill, it is necessary to register the authorization number from the 
+invoice the vendor generated for the purchase in the field ‘Authorization Number’.
+
+
+To do this, go to :guilable:’Accounting > Vendors > Bills > Select bill > Edit ‘Authorization Number’’.
+
+.. image:: ecuador/l10n_ec_authorization_number.png
+   :align: center 
+   :alt: l10n_ec Authorization Number
+
+
+Credit and Debit Notes
+**********************
+
+When generating a credit note or debit note manually or through importation, is it necessary to 
+link this note to the sales invoices that is being modified by it.
+
+.. note::
+	Remember to add all of the required information in the documents prior to downloading the ATS File. 
+For example, add the authorization number and the SRI Payment Method on documents, when needed.
+
+
+ATS Report XML Generation
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To generate the ATS Report, go to :guilabel:’Accounting > Reports > Tax Report > Choose time period 
+for desired ATS report > Download ATS’.
+
+.. image:: ecuador/l10n_ec_ats_report
+   :align: center 
+   :alt: l10n_ec ATS Report
+
+This will download the XML file that is :guilable:’ready to import in ‘DIMM Formularios’’.
+
+.. note::
+	When downloading the ATS Report, Odoo will generate a warning pop-up as shown below alerting the user 
+that a document(s) have missing or incorrect data. Nevertheless, the user can still download the XML file.
+
+.. image:: ecuador/l10n_ec_ats_report_warning
+   :align: center 
+   :alt: l10n_ec ATS Report warning
