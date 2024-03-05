@@ -14,7 +14,7 @@ Productivity
     productivity/calendar
     productivity/discuss
     productivity/whatsapp
-    productivity/iot
+    productivity/voip
     productivity/mail_plugins
     productivity/to_do
     productivity/studio
