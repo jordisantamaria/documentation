@@ -15,5 +15,4 @@ Productivity
     productivity/discuss
     productivity/whatsapp
     productivity/voip
-    productivity/mail_plugins
     productivity/to_do
