@@ -17,4 +17,3 @@ Productivity
     productivity/voip
     productivity/mail_plugins
     productivity/to_do
-    productivity/studio
