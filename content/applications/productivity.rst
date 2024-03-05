@@ -7,11 +7,14 @@ Productivity
 
 .. toctree::
 
+    productivity/documents
+    productivity/sign
+    productivity/spreadsheet
+    productivity/knowledge
+    productivity/calendar
     productivity/discuss
     productivity/whatsapp
-    productivity/to_do
-    productivity/calendar
-    productivity/knowledge
     productivity/iot
     productivity/mail_plugins
+    productivity/to_do
     productivity/studio
