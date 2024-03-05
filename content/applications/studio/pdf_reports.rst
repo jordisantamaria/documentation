@@ -159,7 +159,7 @@ Once you've selected or created a report, you can use the options in the left pa
   time it is generated and reload the original version of the report any subsequent time. This is
   legally required for invoices and is mainly used in this case.
 - :guilabel:`Limit visibility to groups`: to limit the availability of the PDF report to specific
-  :doc:`user groups <../../general/users/access_rights>`.
+  :doc:`user groups <../general/users/access_rights>`.
 - :guilabel:`Edit sources`: to modify the report directly in the :ref:`XML file
   <studio/pdf-reports/XML-editing>`.
 - :guilabel:`Reset report`: to discard all changes made to the report and reset it to its standard
