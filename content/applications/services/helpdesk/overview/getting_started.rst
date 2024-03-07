@@ -169,8 +169,8 @@ customer when a ticket reaches that specific stage in the pipeline. Likewise, ad
 :guilabel:`SMS Template` triggers an SMS text message to send to the customer.
 
 .. important::
-   SMS Text Messaging is an :doc:`In-App Purchase (IAP) <../../../general/in_app_purchase/>` service
-   that requires prepaid credits to work. Refer to `SMS Pricing FAQ
+   SMS Text Messaging is an :doc:`In-App Purchase (IAP) </applications/essentials/in_app_purchase/>`
+   service that requires prepaid credits to work. Refer to `SMS Pricing FAQ
    <https://iap-services.odoo.com/iap/sms/pricing>`_ for additional information.
 
 To select an existing email template, select it from the :guilabel:`Email Template` field. Click on
